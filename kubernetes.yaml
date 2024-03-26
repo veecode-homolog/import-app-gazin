@@ -38,6 +38,6 @@ spec:
                 name: import-app-gazin-service-0
                 port:
                   number: 80
-            path: /import-app-gazin/sample-app/.*
             pathType: ImplementationSpecific
+            path: /import-app-gazin
   ingressClassName: kong
